@@ -1,0 +1,78 @@
+header.container-fluid{
+    background-color: #eee;
+    height: 80px;
+    padding-top: 10px;
+}
+.logo{
+    height: 60px;
+    /* width: 100px; */
+    background-color: #d8fa22;
+    /* margin-left: 10px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+}
+
+ul{
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.multiple-box div{
+    height: 195px;
+}
+
+.green-box{
+    height: 410px;
+    margin: 10px 10px 10px 0px;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+    margin: 10px 10px 10px 0px;
+}
+
+.yellow{
+    background-color: yellow;
+    margin: 10px 10px 10px 0px;
+}
+
+.red{
+    background-color: red;
+    margin: 10px 10px 10px 0px;
+}
+
+.purple{
+    background-color: purple;
+    margin: 10px 10px 10px 0px;
+}
+
+.w-100{
+    height: 0 !important;
+}
+
+.section{
+    padding: 0;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgba(129, 206, 125, 0.9);
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(194, 199, 241)!important;
+}
+
+.dropdown-item{
+    color: green !important ;
+}
