@@ -1,0 +1,5 @@
+@mixin italic($identation,$alignment)
+{
+    font-style: $identation;
+    text-align: $alignment;
+}

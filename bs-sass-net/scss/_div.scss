@@ -1,0 +1,16 @@
+.mydiv{
+    background-color: rgb(236, 233, 233);
+    margin: 10px;
+    box-shadow: 5px 10px 8px #888888;
+    h1{
+        font-size:large;
+        font-weight: bolder;
+        padding: $title;
+    }
+    p{
+        font-size: small;
+        padding: 10px;
+        color: $paragraph;
+        @include italic(italic, justify);
+    }
+}
