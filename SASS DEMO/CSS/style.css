@@ -1,0 +1,21 @@
+nav {
+  background-color: #d8efd1; }
+  nav li {
+    display: inline-block;
+    padding: 10px; }
+    nav li a {
+      color: #dd88ee;
+      border-radius: 10px;
+      background-color: #dd8877;
+      width: 300px; }
+      nav li a:hover {
+        color: #00ffdd; }
+
+.button {
+  border-radius: 10px;
+  display: block;
+  background-color: #dd88ee;
+  padding: 10px;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

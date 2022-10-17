@@ -1,0 +1,15 @@
+nav{
+    background-color: #d8efd1;
+    li{
+        display: inline-block;
+        padding: 10px;
+        a{
+            color: $navLink;
+            // @extend .button;
+            @include superButton(10px,#dd8877,300px);
+            &:hover{
+                color: $navLinkHover
+            }
+        }
+    }
+}

@@ -1,0 +1,5 @@
+@mixin superButton($radius,$bgColor,$width) {
+    border-radius: $radius;
+    background-color: $bgColor;
+    width: $width;
+}
